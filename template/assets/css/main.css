@@ -2471,7 +2471,7 @@ section, summary, time, mark, audio, video {
 				margin-top: 0px;
 				text-align: center;
 			}
-			
+
 
 		}
 
@@ -3040,7 +3040,7 @@ section, summary, time, mark, audio, video {
 		.resp-container {
 			position: relative;
 			overflow: hidden;
-			padding-top: 56.25%;
+			padding-top: 80.25%;
 		}
 
 		.resp-iframe {
