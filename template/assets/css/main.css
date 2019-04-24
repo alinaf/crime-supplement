@@ -2542,6 +2542,11 @@ section, summary, time, mark, audio, video {
 						width: 60%;
 					}
 
+					.verticalphoto .caption {
+						margin-left: 15%;
+						margin-right: 15%;	
+					}
+
 					.biggerphoto img{
 						width: 80%;
 						text-align: center;
@@ -2557,12 +2562,22 @@ section, summary, time, mark, audio, video {
 						.verticalphoto img {
 							width: 80%;
 						}
+
+						.verticalphoto .caption {
+							margin-left: 0%;
+							margin-right: 0%;	
+						}
 					}
 
 					@media screen and (max-width: 650px) {
 
 						.verticalphoto img {
 							width: 90%;
+						}
+
+						.verticalphoto .caption {
+							margin-left: 0%;
+							margin-right: 0%;	
 						}
 					}
 
@@ -2571,6 +2586,15 @@ section, summary, time, mark, audio, video {
 						.verticalphoto img {
 							width: 100%;
 						}
+
+						.verticalphoto .caption {
+						width: 100%;
+						}
+
+						.verticalphoto .caption {
+							margin-left: 0%;
+							margin-right: 0%;	
+						}	
 					}
 
 					@media screen and (max-width: 500px) {
@@ -2578,6 +2602,13 @@ section, summary, time, mark, audio, video {
 						.verticalphoto img {
 							width: 100%;
 						}
+
+
+						.verticalphoto .caption {
+							margin-left: 0%;
+							margin-right: 0%;	
+						}
+
 					}
 
 					@media screen and (max-width: 736px) {
@@ -2593,6 +2624,7 @@ section, summary, time, mark, audio, video {
 						.storyBody {
 							margin: 0 15%;
 						}
+
 					}
 
 
@@ -2876,6 +2908,11 @@ section, summary, time, mark, audio, video {
 					input[type="button"]:hover,
 					.button:hover {
 						background: #1F2C4C;
+					}
+
+					a.button {
+						color: white;
+						text-decoration: none;
 					}
 
 					input[type="submit"]:active,
